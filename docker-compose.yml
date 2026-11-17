@@ -9,19 +9,9 @@ services:
     container_name: exo_jenkinsfile
 
     # environment:
-    #   - NGINX_HOST=demo.fr
-
-    environment:
-      NGINX_HOST: demo.fr
+    #   - NGINX_HOST=demo.f
 
     ports:
       - 82:80
 
-    volumes:
-      - cle-volume:/usr/share/nginx/html
-      # - le-chemin-du-fichier:/chemin-dans-container
 
-# La liste des volumes
-volumes:
-  cle-volume:
-    name: le-nom-du-volume
